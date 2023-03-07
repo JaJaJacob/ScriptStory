@@ -12,8 +12,4 @@ Sometimes when uninstalling program the icon in appwiz.cpl changes to white pape
 When joining to Azure hybrid environment I realize I cannot change host name. Turns out that Microsoft know the issue and haven' t resolved it yet. Just leave the environment, change name and join again 
 
 # 6.SaveAttachmentsMail
-
-
-
-                    
- 
+MailStore packs mails into other mail so when these mails are transferred to the Outlook we had a structure: searched mail in mail store mail. When we want to save only searched mails we need to get into mail store mail and then save the attachment. The script makes it automatically. So basically it saves attachments from attachments to the folder. To make sure mail name isn't duplicated file name is modified by adding unique EntryID
