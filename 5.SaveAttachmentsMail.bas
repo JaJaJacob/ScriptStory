@@ -52,4 +52,3 @@ Sub ListItemsAndSubfolder(ParentFolder As Outlook.Folder, savingpathfolder As St
 End Sub
 
 
-
